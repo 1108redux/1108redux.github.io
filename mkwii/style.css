@@ -1,0 +1,5 @@
+body {
+    background: linear-gradient(45deg, blue, pink);
+    display: block;
+    text-align: center;
+}

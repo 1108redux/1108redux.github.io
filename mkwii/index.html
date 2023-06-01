@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AAHHGHGHGHGHGH (hi)</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <img class="title" src="./title.png" width="800" height="auto"/>
+
+        <label for="quantity">Number of Vehicle/Character Combos to Randomize:</label>
+        <input type="number" value="1" id="quantity" name="quantity" min="1" max="12" />
+        <br />
+        <input type="checkbox" id="toptier" name="toptier" value="toptier">
+        <label for="toptier"> Exclude Top Tier Vehicles? (Flame Runner, Mach Bike, and Bullet Bike)</label>
+        <br />
+        <input type="checkbox" id="nochar" name="nochar" value="nochar">
+        <label for="nochar"> Vehicles Only? (Don't Generate Characters)</label>
+        <br />
+        <input type="checkbox" id="pnames" name="pnames" value="pnames">
+        <label for="pnames"> Include Column for Player Names? </label>
+        <br />
+        <button onclick="doShit();">Generate My Combos!</button>
+        <div id="forTable"></div>
+
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>
